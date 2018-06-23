@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "生活服务"
+  "navigationBarTitleText": "生活服务",
+  "usingComponents": {
+    "WxComment": "../component/WxComment/WxComment"
+  }
 }

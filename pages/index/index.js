@@ -24,6 +24,7 @@ Page({
   onLoad: function (options) {
     //更新当前日期
     app.globalData.day = util.formatTime(new Date()).split(' ')[0];
+    //console.log(util.formatTime(new Date()));
     this.setData({
       today: app.globalData.day
     });
@@ -104,6 +105,7 @@ Page({
         wx.request({
           url: `https://apis.map.qq.com/ws/geocoder/v1/?location=${latitude},${longitude}&key=${app.globalData.tencentMapKey}`,
           success: res => {
+            console.log(res);
             app.globalData.defaultCity = app.globalData.defaultCity ? app.globalData.defaultCity:res.data.result.ad_info.city;
             app.globalData.defaultCounty = app.globalData.defaultCounty ? app.globalData.defaultCounty :res.data.result.ad_info.district;
             that.setData({

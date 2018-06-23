@@ -1,3 +1,6 @@
 {
-    "navigationBarTitleText": "豆瓣电影"
+    "navigationBarTitleText": "豆瓣电影",
+    "usingComponents": {
+    "WxComment": "../component/WxComment/WxComment"
+}
 }

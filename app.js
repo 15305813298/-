@@ -17,7 +17,7 @@ App({
     doubanBase: "https://douban.uieee.com",
     heWeatherBase: "https://free-api.heweather.com",
     juhetoutiaoBase:"https://v.juhe.cn/toutiao/index",
-    tencentMapKey: "4HYBZ-EB23D-SLC42-HQ5R3-LP3LQ-OZFU5",
+    tencentMapKey: "OKDBZ-QYYL4-LDNUM-D5MP2-2SHQ6-ZFB3O",
     heWeatherKey: "4a817b4338e04cc59bdb92da7771411e",
     juhetoutiaoKey:"0f1ad6a5611cfa206ad8db359cc71919",
     curBook: ""

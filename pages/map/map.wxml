@@ -20,4 +20,7 @@
   <text class="place_info">{{placeData.title}}</text> 
   <text class="place_info">{{placeData.address}}</text> 
   <text class="place_info">{{placeData.telephone}}</text> 
-</view> 
+</view>
+<view class="WxComment">
+  <WxComment tipOne="Markdown " tipTwo="will be supported, Powered by yicm." submitBtnText="回复" articleID="{{article_id}}" contentLen='1'></WxComment>
+</view>
